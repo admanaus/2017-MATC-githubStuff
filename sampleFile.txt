@@ -2,7 +2,7 @@ This is a test file created on GitHub ui.
 <<<<<<< HEAD
 
 This is a change.
-
+This is even more of a change!
 =======
 Apples are fun!
 >>>>>>> ffae284cc49e9e4e44a88527d1bf57d1413ced1e
