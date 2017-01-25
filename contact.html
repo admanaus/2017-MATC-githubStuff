@@ -3,8 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        a.round1 {
+            display: block;
+            background-color: #0c6dc4;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            border-radius: 3px;
+            width: 150px;
+            text-decoration: none;
+            alignment: center;
+            margin-top: 10px;
+        }
+
+        .formcontainer {
+            width: 250px;
+            margin: 0 auto;
+
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
 </head>
 <body>
-
+    <div class="formcontainer">
+        <h2>Contact Form</h2>
+        <form>
+            <div class="row">
+                <label>Email </label><input type="text" placeholder="Email"/>
+            </div>
+            <div class="row">
+                <label>Name </label><input type="text" placeholder="Name"/>
+            </div>
+            <div class="row">
+                <label>Message </label><input type="text" placeholder="Message"/>
+            </div>
+        </form>
+        <div>
+            <a href="#" class="round1"> Send </a>
+        </div>
+    </div>
 </body>
 </html>
